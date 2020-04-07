@@ -1,6 +1,6 @@
 package js.npm;
 
-@:jsRequire("smart-buffer")
+@:jsRequire("smart-buffer", "SmartBuffer")
 extern class SmartBuffer {
   /**
   * Creates a new SmartBuffer instance with the provided SmartBufferOptions options.
